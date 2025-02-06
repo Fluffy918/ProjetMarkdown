@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react"
+
 function Blagues() {
     const [blague, setBlague] = useState({ setup: "", punchline: ""})
 

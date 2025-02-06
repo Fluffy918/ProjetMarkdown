@@ -1,3 +1,6 @@
+import React from "react"
+import "../style.css"
+
 function Dashboard() {
     return(
         <div className="dashboard-container">
@@ -37,3 +40,5 @@ function Dashboard() {
         </div>
     )
 }
+
+export default Dashboard

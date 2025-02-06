@@ -1,13 +1,13 @@
 import Blagues from "./Blague"
 import Citation from "./Citation"
 import Footer from "./Footer"
-import Navigation from "./Navigation"
+import Dashboard from "./Dashboard"
+
 
 
 function Main() {
     return (
             <div>
-                <Navigation/>
                 <Dashboard/>
                 <Citation/>
                 <Blagues/>
