@@ -1,8 +1,6 @@
 import React from "react"
-import Container from "react-bootstrap"
-import { Nav } from "react-bootstrap"
-import { Navbar } from "react-bootstrap"
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { Navbar, Nav, Container } from "react-bootstrap"
+
 
 function Navigation() {
     return(
