@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Section d'accueil*/
+.hero-section {
+    padding: 60px 20px;
+    background:  rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Mise en page */
+
+.main-container {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Bouton */
+
+.btn-primary{
+    background: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover{
+    background: #feb47b;
+}

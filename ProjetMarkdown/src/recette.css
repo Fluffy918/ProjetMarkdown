@@ -1,0 +1,24 @@
+.image-recette {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.liste-ingredient {
+    list-style-type: none;
+    padding: 0;
+}
+
+.liste-ingredient li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 5px;
+    border-left: 5px solid #007bff;
+    font-weight: bold;
+}
+
+.instructions-recette {
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+}
